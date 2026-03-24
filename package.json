@@ -1,6 +1,6 @@
 {
   "name": "demo-sim-store",
   "scripts": {
-    "start": "npx serve -s . -l 3000"
+    "start": "npx serve . -l 3000"
   }
 }
