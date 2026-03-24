@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wheelbases — No. 1 Sim Store</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ============ TOP BAR ============ -->
+  <div class="top-bar">
+    <div class="container">
+      <span class="top-bar-text">Free Shipping on Orders Over $500</span>
+      <div class="top-bar-icons">
+        <a href="#">&#9825;</a>
+        <a href="#" class="cart-icon-wrapper">
+          &#128722;
+          <span class="cart-badge">3</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.svg" alt="No. 1 Sim Store" height="32">
+      </a>
+
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <!-- Shop Dropdown -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">Shop &#9662;</a>
+          <div class="dropdown dropdown-shop">
+            <a href="wheelbases.html">Wheelbases</a>
+            <a href="#">Steering Wheels</a>
+            <a href="#">Pedals</a>
+            <a href="#">Cockpits &amp; Rigs</a>
+            <a href="#">Seats</a>
+            <a href="#">Shifters</a>
+            <a href="#">Handbrakes</a>
+            <a href="#">Accessories</a>
+          </div>
+        </li>
+
+        <!-- Brands Dropdown -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">Brands &#9662;</a>
+          <div class="dropdown dropdown-brands">
+            <div class="dropdown-grid">
+              <a href="#">Fanatec</a>
+              <a href="#">Simucube</a>
+              <a href="#">Moza</a>
+              <a href="#">Heusinkveld</a>
+              <a href="#">Trak Racer</a>
+              <a href="#">Next Level Racing</a>
+              <a href="#">Ascher Racing</a>
+              <a href="#">Cube Controls</a>
+              <a href="#">Simagic</a>
+              <a href="#">Thrustmaster</a>
+              <a href="#">Logitech</a>
+              <a href="#">Sparco</a>
+              <a href="#">OMP</a>
+              <a href="#">Precision Sim Engineering</a>
+              <a href="#">Ricmotech</a>
+            </div>
+          </div>
+        </li>
+
+        <!-- Build Your Rig CTA -->
+        <li class="nav-item nav-cta">
+          <a href="builder.html" class="nav-link">Build Your Rig</a>
+        </li>
+
+        <!-- Turnkeys -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">Turnkeys</a>
+        </li>
+
+        <!-- Support -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">Support</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <div class="breadcrumb">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <span class="separator">/</span>
+      <a href="#">Shop</a>
+      <span class="separator">/</span>
+      <span class="current">Wheelbases</span>
+    </div>
+  </div>
+
+  <!-- ============ PAGE HEADER ============ -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Wheelbases</h1>
+      <p class="subtitle">Direct drive and belt-driven bases from top brands</p>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCTS ============ -->
+  <section class="products">
+    <div class="container">
+      <div class="products-layout">
+
+        <!-- Filter Sidebar -->
+        <aside class="filter-sidebar">
+          <h3>Filters</h3>
+
+          <div class="filter-group">
+            <h4>Brand</h4>
+            <label class="filter-option">
+              <input type="checkbox">
+              <span>Fanatec</span>
+            </label>
+            <label class="filter-option">
+              <input type="checkbox">
+              <span>Moza</span>
+            </label>
+            <label class="filter-option">
+              <input type="checkbox">
+              <span>Simucube</span>
+            </label>
+          </div>
+
+          <div class="filter-group">
+            <h4>Price Range</h4>
+            <label class="filter-option">
+              <input type="checkbox">
+              <span>$200 - $500</span>
+            </label>
+            <label class="filter-option">
+              <input type="checkbox">
+              <span>$500 - $1,000</span>
+            </label>
+            <label class="filter-option">
+              <input type="checkbox">
+              <span>$1,000+</span>
+            </label>
+          </div>
+
+          <div class="filter-group">
+            <h4>Drive Type</h4>
+            <label class="filter-option">
+              <input type="checkbox">
+              <span>Direct Drive</span>
+            </label>
+            <label class="filter-option">
+              <input type="checkbox">
+              <span>Belt Drive</span>
+            </label>
+          </div>
+        </aside>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+
+          <!-- Product 1: Fanatec CSL DD -->
+          <div class="product-card">
+            <img src="images/fanatec-csl-dd.jpg" alt="Fanatec CSL DD (8Nm)" class="product-image">
+            <span class="brand-tag">Fanatec</span>
+            <h3 class="product-name">Fanatec CSL DD (8Nm)</h3>
+            <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="product-price">$349.95</p>
+            <button class="btn-primary">Add to Cart</button>
+          </div>
+
+          <!-- Product 2: Fanatec Gran Turismo DD Pro -->
+          <div class="product-card">
+            <img src="images/fanatec-gt-dd-pro.jpg" alt="Fanatec Gran Turismo DD Pro" class="product-image">
+            <span class="brand-tag">Fanatec</span>
+            <h3 class="product-name">Fanatec Gran Turismo DD Pro</h3>
+            <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            <p class="product-price">$699.95</p>
+            <button class="btn-primary">Add to Cart</button>
+          </div>
+
+          <!-- Product 3: Moza R5 Bundle -->
+          <div class="product-card">
+            <img src="images/moza-r5.jpg" alt="Moza R5 Bundle" class="product-image">
+            <span class="brand-tag">Moza</span>
+            <h3 class="product-name">Moza R5 Bundle</h3>
+            <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            <p class="product-price">$299.99</p>
+            <button class="btn-primary">Add to Cart</button>
+          </div>
+
+          <!-- Product 4: Moza R12 -->
+          <div class="product-card">
+            <img src="images/moza-r12.jpg" alt="Moza R12" class="product-image">
+            <span class="brand-tag">Moza</span>
+            <h3 class="product-name">Moza R12</h3>
+            <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="product-price">$569.99</p>
+            <button class="btn-primary">Add to Cart</button>
+          </div>
+
+          <!-- Product 5: Simucube 2 Sport -->
+          <div class="product-card">
+            <img src="images/simucube-2-sport.jpg" alt="Simucube 2 Sport" class="product-image">
+            <span class="brand-tag">Simucube</span>
+            <h3 class="product-name">Simucube 2 Sport</h3>
+            <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="product-price">$1,299.00</p>
+            <button class="btn-primary">Add to Cart</button>
+          </div>
+
+          <!-- Product 6: Simucube 2 Pro -->
+          <div class="product-card">
+            <img src="images/simucube-2-pro.jpg" alt="Simucube 2 Pro" class="product-image">
+            <span class="brand-tag">Simucube</span>
+            <h3 class="product-name">Simucube 2 Pro</h3>
+            <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="product-price">$1,495.00</p>
+            <button class="btn-primary">Add to Cart</button>
+          </div>
+
+          <!-- Product 7: Fanatec ClubSport DD+ -->
+          <div class="product-card">
+            <img src="images/fanatec-clubsport-dd.jpg" alt="Fanatec ClubSport DD+" class="product-image">
+            <span class="brand-tag">Fanatec</span>
+            <h3 class="product-name">Fanatec ClubSport DD+</h3>
+            <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="product-price">$699.95</p>
+            <button class="btn-primary">Add to Cart</button>
+          </div>
+
+          <!-- Product 8: Moza R16 -->
+          <div class="product-card">
+            <img src="images/moza-r16.jpg" alt="Moza R16" class="product-image">
+            <span class="brand-tag">Moza</span>
+            <h3 class="product-name">Moza R16</h3>
+            <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            <p class="product-price">$849.99</p>
+            <button class="btn-primary">Add to Cart</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Column 1: Store Info -->
+        <div class="footer-col">
+          <h4>No. 1 Sim Store</h4>
+          <p>Your one-stop shop for premium sim racing equipment. We carry the top brands and offer expert support to help you build the perfect rig.</p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="wheelbases.html">Wheelbases</a></li>
+            <li><a href="#">Steering Wheels</a></li>
+            <li><a href="#">Pedals</a></li>
+            <li><a href="#">Cockpits &amp; Rigs</a></li>
+            <li><a href="builder.html">Build Your Rig</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Newsletter -->
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Subscribe for the latest deals, product launches, and sim racing news.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 No. 1 Sim Store. All rights reserved. This is a fictional store for demonstration purposes.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
